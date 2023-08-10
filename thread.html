@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         .horiz{
             display: flex;
             justify-content: center;
@@ -28,17 +34,91 @@
             width: 130px;
             height: 20px;
             border-radius: 40px;
-            
+
+
+
+
         }
+
+        .abc{
+            position: absolute;
+            left: 15rem;
+            padding: 17px;
+        }
+
+
+        .icon_section{
+
+            width: 60px;
+            height: 100vw;
+            position: relative;
+            top: 1px;
+            border: 1px solid black;
+
+        }
+
+
+        .icon{
+
+
+            width: 35px;
+            justify-content: center;
+            padding: 5px;
+            align-items: center;
+
+
+
+        }
+
+        .icon_div{
+
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="horiz">
             <h2 class="s1">ThreadS</h2>
-        
-        <input type="text" id="k" placeholder="Search...">
-            </div>
+            <div class="abc"><input type="text" id="k" placeholder="Search..."></div>
+
+        </div>
+
+
+
+
+
     </div>
+
+
+    <div class="icon_section">
+
+
+        <div class="icon_div">
+
+
+         <img class="icon" width="50px" height="50px" src="https://cdn.pixabay.com/photo/2022/03/23/02/48/cross-7086307_1280.png" alt="">
+         <img class="icon" width="80px" height="50px" src="https://cdn.pixabay.com/photo/2015/12/28/02/58/home-1110868_1280.png" alt=""> 
+         <img class="icon" width="190px" height="100px" src="https://icon-library.com/images/search-icon-jpg/search-icon-jpg-19.jpg" alt="">
+         <img class="icon"  width="50px" height="50px" src="https://w7.pngwing.com/pngs/537/580/png-transparent-bell-notification-communication-information-icon.png" alt="">
+         <img class="icon" width="50px" height="50px" src="https://www.freeiconspng.com/thumbs/message-icon-png/message-icon-png-9.png" alt="">
+         <img class="icon" width="150px" height="100px" src="https://img.freepik.com/premium-vector/accoun-vector-icon-with-long-shadow-white-illustration-isolated-blue-round-background-graphic-web-design_549897-771.jpg" alt="">
+         <img class="icon" width="150px" height="100px" src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-facebook-like-icon-png-image_3584862.jpg" alt="">
+
+
+        </div>
+
+    </div>
+
+
 </body>
 </html>
+
