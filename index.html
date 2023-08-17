@@ -1,42 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
 </head>
+  <style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    .container{
+        margin: 5px;
+            height: 100vh;
+            display: grid;
+            gap:20px;
+            grid-template-columns: 0.7fr 2.8fr 1.5fr ;
+            grid-template-rows: 2fr;
+    }
+    .a{
+        background-color:rgba(51, 45, 45, 0.645);
+        border-radius: 10px;
+    }
+    .b{
+        background-color:rgba(51, 45, 45, 0.645);
+        border-radius: 10px;
+    }
+    .c{
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    p{
+        margin: 2px;
+        padding: 5px;
+        color: white;
+        font-size: small;
+    }
+    .c{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 0.01fr 0.4fr 0.9fr;
+    }
+    .aa{
+        padding: 5px;
+        width: 100%;
+        border-radius: 20px;
+        background-color:rgba(51, 45, 45, 0.645);
 
+
+    }
+    .bb{
+        padding: 5px;
+        border-radius: 20px;
+        background-color:rgba(51, 45, 45, 0.645);
+
+    }
+    .cc{
+        padding: 5px;
+        border-radius: 20px;
+        background-color:rgba(51, 45, 45, 0.645);
+
+    }
+    .kk{
+        width: 100%;
+        height: 28px;
+        background-color:rgba(51, 45, 45, 0.645);
+
+    }
+    .k{
+        width: 150px;
+        height: 35px;
+        border-radius: 130px;
+        font-size: 18px;
+        color: white;
+        background-color: rgb(13, 151, 219);
+        margin-top: 2PX;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    #s1{
+        font-size: 20px;
+        margin-top: -20px;
+        margin-left: 5px;
+
+    }
+    
+  </style>
 <body>
     <div class="container">
-        <div class="section section-25">
-            <!-- Content for the 25% section -->
-            <h2>25% Section</h2>
-            <p>This is the content of the 25% section.</p>
-        </div>
-        <div class="section section-50">
-            <!-- Content for the 50% section -->
-            <h2>Home</h2>
-            <p>Lorem ipsum dolor sit amet..</p>
-            <img class="image" src="./assets/images/post1.jpg" alt="post">
-            <hr />
-            <p>Lorem ipsum dolor sit amet..</p>
-            <img class="image" src="./assets/images/post1.jpg" alt="post">
-            <hr />
-            <p>Lorem ipsum dolor sit amet..</p>
-            <img class="image" src="./assets/images/post1.jpg" alt="post">
-            <hr />
-            <p>Lorem ipsum dolor sit amet..</p>
-            <img class="image" src="./assets/images/post1.jpg" alt="post">
-            <hr />
+        <div class="a">Symbol</div>
+        <div class="b"><h1>Home</h1></div>
+        <div class="c">
+            <div class="aa">
+                <input  class="kk" style="border-radius: 18px;" type="text" placeholder="Search">
 
-        </div>
-        <div class="section section-25">
-            <!-- Content for the second 25% section -->
-            <h2>25% Section</h2>
-            <p>This is the content of the second 25% section.</p>
+            </div>
+            <div class="bb">
+                <h2 style="margin-left: 10px;">Get Verified</h2>
+                <p id="s1">Subscribe to unlock new features.</p>
+                <button class="k" type="button">Get Verified</button>
+            </div>
+            <div class="cc">
+                <h2>What`s happening</h2>
+                <h3>#GalaxyWatch</h3>
+                <p>Know your health inside out.</p>
+                <hr>
+                <h3>#Elvish Yadav</h3>
+                <p>500k posts</p>
+                <hr>
+                <h3>#LawrenceBishnoi</h3>
+                <p>Lawrence Bishnoi is an indian gangster</p>
+                <hr>
+                <h3>#Suspended</h3>
+                <p>Trending With #UniformCivilCode</p>
+                <hr>
+            </div>
         </div>
     </div>
 </body>
-
 </html>
